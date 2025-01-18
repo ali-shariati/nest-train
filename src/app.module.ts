@@ -1,9 +1,7 @@
 import { Module } from '@nestjs/common';
-import { MessageModule } from './message/message.module';
+import { MessagesModule } from './messages/messages.module';
 
 @Module({
-  imports: [MessageModule],
-  controllers: [],
-  providers: [],
+  imports: [MessagesModule],
 })
 export class AppModule {}
